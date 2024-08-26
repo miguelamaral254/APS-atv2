@@ -1,4 +1,3 @@
-
 # Mobile-Atv2 - Crud de usuários
 
 ## Descrição
@@ -17,9 +16,9 @@ Este projeto é uma aplicação backend desenvolvida em Node.js e TypeScript, qu
 
 ## Scripts
 
-- **`start:dev`**: Inicia o servidor em modo de desenvolvimento utilizando Nodemon e TS-Node.
-- **`start`**: Inicia o servidor em modo de produção, executando o arquivo JavaScript compilado.
-- **`build`**: Compila o código TypeScript para JavaScript.
+- **`npm run start:dev`** ou **`yarn start:dev`**: Inicia o servidor em modo de desenvolvimento utilizando Nodemon e TS-Node.
+- **`npm start`** ou **`yarn start`**: Inicia o servidor em modo de produção, executando o arquivo JavaScript compilado.
+- **`npm run build`** ou **`yarn build`**: Compila o código TypeScript para JavaScript.
 
 ## Endpoints da API
 
@@ -46,12 +45,15 @@ A aplicação está disponível em: [https://aps-atv2-production.up.railway.app/
    npm install
    ```
 
-3. Configure as variáveis de ambiente no arquivo `.env`. 
-PORT=8000.
-MONGODB_URL=localhost:27017(caso use docker, já está preparado para isso).
-MONGODB_URL= url do mongo mongodb+srv://#####.#####.mongodb.net.
-MONGODB_USERNAME= login no mongodb.
-MONGODB_PASSWORD= senha no mongo db.
+3. Configure as variáveis de ambiente no arquivo `.env`:
+
+   ```env
+   PORT=8000
+   MONGODB_URL=localhost:27017 (caso use Docker, já está preparado para isso)
+   MONGODB_URL=URL do MongoDB, ex: mongodb+srv://#####.#####.mongodb.net
+   MONGODB_USERNAME=SeuLoginNoMongoDB
+   MONGODB_PASSWORD=SuaSenhaNoMongoDB
+   ```
 
 4. Inicie o servidor em modo de desenvolvimento:
    ```bash
