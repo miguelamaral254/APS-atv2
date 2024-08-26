@@ -48,7 +48,7 @@ A aplicação está disponível em: [https://aps-atv2-production.up.railway.app/
 
 3. Configure as variáveis de ambiente no arquivo `.env`. 
 PORT=8000 
-# MONGODB_URL=localhost:27017(caso use docker, já está preparado para isso)
+MONGODB_URL=localhost:27017(caso use docker, já está preparado para isso)
 MONGODB_URL= url do mongo mongodb+srv://#####.#####.mongodb.net
 MONGODB_USERNAME= login no mongodb
 MONGODB_PASSWORD= senha no mongo db
